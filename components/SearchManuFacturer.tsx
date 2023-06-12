@@ -25,8 +25,8 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
           <Combobox.Button className='absolute top-[14px]'>
             <Image
               src='/car-logo.png'
-              width={20}
-              height={20}
+              width={25}
+              height={25}
               className='ml-4'
               alt='car logo'
             />

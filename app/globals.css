@@ -43,7 +43,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[72px] leading-[90px] sm:text-[64px] text-[50px] font-extrabold;
 }
 
 .hero__subtitle {
@@ -59,7 +59,7 @@
 }
 
 .hero__image-overlay {
-  @apply absolute xl:-top-11 top-[250px] xl:-right-[70px] right-[0px] bg-hero-bg bg-no-repeat -z-10 w-full xl:h-screen h-[880px];
+  @apply absolute xl:-top-[2px] xl:scale-[1.06] lg:top-[335px] lg:scale-[0.9] lg:-right-[100px] md:top-[410px] md:scale-[0.9] md:-right-[100px] top-[500px] xl:-right-[325px] -right-[80px] bg-no-repeat -z-10 w-full xl:h-[100%] h-[880px];
 }
 /* END: Hero styles */
 
@@ -88,7 +88,8 @@
 
 /* START: Car Card styles */
 .car-card {
-  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
+  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-[#2a75e63a] hover:bg-[#0051ffb9] hover:text-[#e6e6e7] hover:shadow-md rounded-3xl;
+
 }
 
 .car-card__content {
