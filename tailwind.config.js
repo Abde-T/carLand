@@ -16,6 +16,7 @@ module.exports = {
         "primary-blue": {
           DEFAULT: "#2B59FF",
           100: "#F5F8FF",
+          'mRed': '#c52b30'
         },
         "secondary-orange": "#f79761",
         "light-white": {
