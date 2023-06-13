@@ -2,7 +2,7 @@ import './globals.css'
 import { Nav , Footer } from '@/components';
 
 export const metadata = {
-  title: 'Car Land',
+  title: 'Car Catalogue',
   description: 'Discover the best cars in the world',
 }
 

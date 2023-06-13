@@ -16,11 +16,10 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Buy, book, or rent a car - quickly and easily
+           Purchase, reserve, or lease a vehicle with speed and simplicity.
         </h1>
         <p className="hero__subtitle">
-          Streamline your car shoping experience with our effortless booking
-          process.
+        Simplify the process of finding your perfect car with our hassle-free filtering system.
         </p>
         <CustomButton
           title="Explore Cars"

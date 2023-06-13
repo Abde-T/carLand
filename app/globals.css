@@ -11,6 +11,27 @@
   font-family: "Manrope", sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e6e6e7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e6e6e7;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c52b30;
+}
+
 /* START: General styles */
 .max-width {
   @apply max-w-[1440px] mx-auto;
@@ -43,7 +64,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] leading-[90px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[72px] leading-[90px] md:text-[64px] text-[40px] font-extrabold;
 }
 
 .hero__subtitle {
@@ -55,7 +76,7 @@
 }
 
 .hero__image {
-  @apply relative xl:w-full w-[90%] xl:h-full h-[590px] z-0;
+  @apply relative xl:w-full w-[90%] xl:h-full h-[590px] z-0 ;
 }
 
 .hero__image-overlay {
